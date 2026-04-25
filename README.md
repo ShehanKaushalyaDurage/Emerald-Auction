@@ -1,4 +1,4 @@
-# 💎 Emerald Auction – Distributed Real-Time Auction System
+# Emerald Auction – Distributed Real-Time Auction System
 
 <p align="center">
 
@@ -10,7 +10,7 @@
 
 </p>
 
-## 📌 Overview
+## Overview
 
 Emerald Auction is a distributed, real-time auction platform engineered using Jakarta EE (J2EE) to simulate enterprise-grade backend systems.
 
@@ -25,7 +25,7 @@ Unlike traditional CRUD applications, this system intentionally avoids database 
 
 ---
 
-## 🎯 Why This Project Stands Out (For Recruiters)
+## Why This Project Stands Out
 
 ✔ Designed a real-time distributed system without relying on a database  
 ✔ Implemented JMS-based publish/subscribe architecture  
@@ -33,7 +33,7 @@ Unlike traditional CRUD applications, this system intentionally avoids database 
 ✔ Developed auto-bidding logic with fairness guarantees  
 ✔ Delivered live updates using WebSockets (low-latency UI sync)  
 
-👉 This project demonstrates strong understanding of:
+This project demonstrates strong understanding of:
 
 - Backend system design
 - Multi-threading & race condition handling
@@ -42,7 +42,7 @@ Unlike traditional CRUD applications, this system intentionally avoids database 
 
 ---
 
-## 🧱 Architecture Overview
+## Architecture Overview
 
 ```
 Client (JSP + JS)
@@ -62,57 +62,57 @@ In-Memory Data Store (Concurrent Collections)
 
 ---
 
-## ⚙️ Tech Stack
+## Tech Stack
 
-### 🔹 Backend
+### Backend
 - Java 11
 - Jakarta EE (J2EE)
 - EJB (Session Beans)
 - JMS (Topic-based messaging)
 - Servlets
 
-### 🔹 Real-Time
+### Real-Time
 - WebSocket API (Payara Server)
 
-### 🔹 Frontend
+### Frontend
 - JSP, HTML, CSS, JavaScript
 
-### 🔹 Data Handling
+### Data Handling
 - Gson (JSON processing)
 
-### 🔹 Storage
+### Storage
 - In-memory collections (ConcurrentHashMap, Lists)
 - No external database
 
 ---
 
-## 🚀 Key Features
+## Key Features
 
-### 💰 Real-Time Bidding Engine
+### Real-Time Bidding Engine
 - Handles simultaneous bids safely
 - Guarantees atomic updates and consistency
 - Prevents race conditions using thread-safe logic
 
-### 🤖 Auto-Bidding System
+### Auto-Bidding System
 - Users define a maximum bid limit
 - System automatically competes in auctions
 - Mimics real-world platforms like eBay
 
-### ⚖️ Fairness & Prioritization
+### Fairness & Prioritization
 - Manual bids are prioritized over automated bids
 - Queue-based resolution ensures deterministic outcomes
 
-### 📡 Live Updates
+### Live Updates
 - JMS Topics broadcast bid events
 - WebSockets push updates instantly to all clients
 
-### 👤 User & Product Management
+### User & Product Management
 - Managed via EJB Session Beans
 - Lightweight in-memory storage for fast access
 
 ---
 
-## 🔄 How the System Works
+## How the System Works
 
 1. User places a bid
 2. EJB validates and processes the request
@@ -122,7 +122,7 @@ In-Memory Data Store (Concurrent Collections)
 
 ---
 
-## 🧠 Engineering Highlights
+## Engineering Highlights
 
 ✔ Implemented thread-safe bidding logic using concurrent collections  
 ✔ Designed loosely coupled architecture with JMS  
@@ -132,7 +132,7 @@ In-Memory Data Store (Concurrent Collections)
 
 ---
 
-## 📦 Project Structure
+## Project Structure
 
 ```
 emerald-auction/
@@ -154,7 +154,7 @@ emerald-auction/
 
 ---
 
-## 🛠️ Setup & Run
+## Setup & Run
 
 ### Prerequisites
 - Java 11+
@@ -174,7 +174,7 @@ http://localhost:8080/emerald-auction
 
 ---
 
-## ⚠️ Limitations
+## Limitations
 
 - No persistent storage (resets on restart)
 - Not intended for production financial use
@@ -182,7 +182,7 @@ http://localhost:8080/emerald-auction
 
 ---
 
-## 🔮 Future Improvements
+## Future Improvements
 
 - Add database (PostgreSQL)
 - Introduce authentication (JWT)
@@ -191,7 +191,7 @@ http://localhost:8080/emerald-auction
 
 ---
 
-## 📚 What This Project Demonstrates
+## What This Project Demonstrates
 
 - Enterprise Java (EJB, JMS, Servlets)
 - Event-driven system design
