@@ -1,0 +1,11 @@
+com\emaraldauction\ee\ejb\remote\AuctionManager.class
+com\emaraldauction\ee\ejb\remote\AuthManager.class
+com\emaraldauction\ee\ejb\bean\JmsProducer.class
+com\emaraldauction\ee\ejb\bean\WebSocketBroadcaster.class
+com\emaraldauction\ee\ejb\bean\AuctionManagerBean.class
+com\emaraldauction\ee\ejb\bean\BidManagerBean.class
+com\emaraldauction\ee\ejb\remote\BidManager.class
+com\emaraldauction\ee\ejb\bean\BidMessageBean.class
+com\emaraldauction\ee\ejb\bean\AuthManagerBean.class
+com\emaraldauction\ee\ejb\bean\AuctionJmsProducer.class
+com\emaraldauction\ee\ejb\bean\AuctionMessageBean.class

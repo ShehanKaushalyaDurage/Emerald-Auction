@@ -1,0 +1,6 @@
+com\emaraldauction\ee\web\servlet\Login.class
+com\emaraldauction\ee\web\servlet\AllAuctions.class
+com\emaraldauction\ee\web\servlet\BidServlet.class
+com\emaraldauction\ee\web\servlet\NewAuction.class
+com\emaraldauction\ee\web\servlet\ViewAuction.class
+com\emaraldauction\ee\web\socket\WebSocket.class

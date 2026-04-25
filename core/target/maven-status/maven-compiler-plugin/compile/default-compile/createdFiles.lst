@@ -1,0 +1,5 @@
+com\emaraldauction\ee\core\entity\User.class
+com\emaraldauction\ee\core\entity\Bid.class
+com\emaraldauction\ee\core\entity\Status.class
+com\emaraldauction\ee\core\database\Database.class
+com\emaraldauction\ee\core\entity\Auction.class

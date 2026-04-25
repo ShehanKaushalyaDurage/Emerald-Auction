@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.emaraldauction.ee</groupId>
+        <artifactId>EmaraldAuction</artifactId>
+        <version>1.0</version>
+    </parent>
+
+    <artifactId>ear</artifactId>
+    <packaging>ear</packaging>
+    <name>emaraldauction</name>
+
+    <properties>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>jakarta.platform</groupId>
+            <artifactId>jakarta.jakartaee-api</artifactId>
+            <version>10.0.0</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.emaraldauction.ee</groupId>
+            <artifactId>core</artifactId>
+            <version>1.0</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>com.emaraldauction.ee</groupId>
+            <artifactId>web</artifactId>
+            <version>1.0</version>
+            <type>war</type>
+        </dependency>
+        <dependency>
+            <groupId>com.emaraldauction.ee</groupId>
+            <artifactId>ejb</artifactId>
+            <version>1.0</version>
+            <type>ejb</type>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <finalName>${project.name}</finalName>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-ear-plugin</artifactId>
+                <version>3.3.0</version>
+                <configuration>
+                    <defaultLibBundleDir>lib</defaultLibBundleDir>
+                    <modules>
+                        <jarModule>
+                            <groupId>com.emaraldauction.ee</groupId>
+                            <artifactId>core</artifactId>
+                            <bundleFileName>core.jar</bundleFileName>
+                        </jarModule>
+                        <ejbModule>
+                            <groupId>com.emaraldauction.ee</groupId>
+                            <artifactId>ejb</artifactId>
+                            <bundleFileName>ejb-module.jar</bundleFileName>
+                        </ejbModule>
+                        <webModule>
+                            <groupId>com.emaraldauction.ee</groupId>
+                            <artifactId>web</artifactId>
+                            <contextRoot>/ee-app</contextRoot>
+                            <bundleFileName>web-module.war</bundleFileName>
+                        </webModule>
+                    </modules>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>

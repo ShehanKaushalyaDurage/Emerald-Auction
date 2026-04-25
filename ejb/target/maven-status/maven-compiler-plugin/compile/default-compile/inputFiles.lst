@@ -1,0 +1,11 @@
+D:\Java Project\EmaraldAuction\EmaraldAuction\ejb\src\main\java\com\emaraldauction\ee\ejb\bean\AuctionJmsProducer.java
+D:\Java Project\EmaraldAuction\EmaraldAuction\ejb\src\main\java\com\emaraldauction\ee\ejb\bean\AuctionManagerBean.java
+D:\Java Project\EmaraldAuction\EmaraldAuction\ejb\src\main\java\com\emaraldauction\ee\ejb\bean\AuctionMessageBean.java
+D:\Java Project\EmaraldAuction\EmaraldAuction\ejb\src\main\java\com\emaraldauction\ee\ejb\bean\AuthManagerBean.java
+D:\Java Project\EmaraldAuction\EmaraldAuction\ejb\src\main\java\com\emaraldauction\ee\ejb\bean\BidManagerBean.java
+D:\Java Project\EmaraldAuction\EmaraldAuction\ejb\src\main\java\com\emaraldauction\ee\ejb\bean\BidMessageBean.java
+D:\Java Project\EmaraldAuction\EmaraldAuction\ejb\src\main\java\com\emaraldauction\ee\ejb\bean\JmsProducer.java
+D:\Java Project\EmaraldAuction\EmaraldAuction\ejb\src\main\java\com\emaraldauction\ee\ejb\bean\WebSocketBroadcaster.java
+D:\Java Project\EmaraldAuction\EmaraldAuction\ejb\src\main\java\com\emaraldauction\ee\ejb\remote\AuctionManager.java
+D:\Java Project\EmaraldAuction\EmaraldAuction\ejb\src\main\java\com\emaraldauction\ee\ejb\remote\AuthManager.java
+D:\Java Project\EmaraldAuction\EmaraldAuction\ejb\src\main\java\com\emaraldauction\ee\ejb\remote\BidManager.java
