@@ -1,5 +1,15 @@
 # 💎 Emerald Auction – Distributed Real-Time Auction System
 
+<p align="center">
+
+![Java](https://img.shields.io/badge/Java-11-blue.svg)
+![Jakarta EE](https://img.shields.io/badge/Jakarta%20EE-Enterprise-orange.svg)
+![Build](https://img.shields.io/badge/Build-Passing-brightgreen.svg)
+![License](https://img.shields.io/badge/License-MIT-green.svg)
+![Architecture](https://img.shields.io/badge/Architecture-Event--Driven-blueviolet.svg)
+
+</p>
+
 ## 📌 Overview
 
 Emerald Auction is a distributed, real-time auction platform engineered using Jakarta EE (J2EE) to simulate enterprise-grade backend systems.
